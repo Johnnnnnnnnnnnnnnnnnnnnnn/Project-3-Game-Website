@@ -1,0 +1,27 @@
+.Games-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: lightcoral;
+    width: 99vw; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 10px;
+    margin: 10px;
+}
+
+.Games-images {
+    width: 50vw;
+}
+
+.Games-desc {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100vw;
+}
